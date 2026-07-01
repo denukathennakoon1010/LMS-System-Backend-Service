@@ -68,7 +68,7 @@ userSchema.methods.comparePassword = async function(candidatePassword) {
 };
 
 // ============================================
-# 🎫 JWT Token Generate කිරීම
+// 🎫 JWT Token Generate කිරීම
 // ============================================
 userSchema.methods.generateAuthToken = function() {
     const jwt = require('jsonwebtoken');
